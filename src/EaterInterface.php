@@ -44,7 +44,7 @@ interface EaterInterface extends ArrayAccess, IteratorAggregate, JsonSerializabl
      *
      * @return mixed
      */
-    public function offsetGet($offset);
+    public function offsetGet($offset): mixed;
 
     /**
      * @param mixed $offset
