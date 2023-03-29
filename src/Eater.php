@@ -135,7 +135,7 @@ class Eater implements EaterInterface
     /**
      * {@inheritdoc}
      */
-    public function offsetGet($offset)
+    public function offsetGet($offset): mixed
     {
         return $this->getData($offset);
     }
